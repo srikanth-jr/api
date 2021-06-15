@@ -1,17 +1,13 @@
-import React from "react";
+import React from 'react';
+import TodoApp from './component/TodoApp';
 
-import './App.css';
-import UserPagination from "./components/UserPagination";
 
- 
-class App extends React.Component {
-   
-  render() {
-    return (
-      <React.Fragment>
-        <UserPagination/>
-      </React.Fragment>
-    );
-  }
-}
+const App = () => {
+  return (
+    <React.Fragment>
+     <TodoApp/>
+        </React.Fragment>
+  );
+};
+
 export default App;
